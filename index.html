@@ -104,6 +104,20 @@
         <textarea id="freeNoteText" placeholder="チェック項目にない動作、左右差、動画で気づいた点、患者背景などを自由に記載できます。"></textarea>
       </section>
 
+      <section class="ai-prompt-area" aria-label="AI相談用プロンプト">
+        <div class="output-header">
+          <div>
+            <p class="eyebrow">AI Prompt</p>
+            <h2>AI相談用プロンプト</h2>
+          </div>
+          <button id="copyPromptButton" class="ghost-button" type="button">プロンプトをコピー</button>
+        </div>
+        <p class="reference-note">
+          表にない跛行や動作を相談したいときに、この文章をChatGPTへ貼り付けてください。患者名、ID、生年月日、施設名、動画URLなど個人情報は入れないでください。
+        </p>
+        <textarea id="aiPromptText" readonly></textarea>
+      </section>
+
       <section class="output-area" aria-label="所見出力">
         <div class="output-header">
           <div>

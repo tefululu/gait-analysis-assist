@@ -120,6 +120,7 @@ textarea:focus-visible,
 .connection-area,
 .compensation-area,
 .free-note-area,
+.ai-prompt-area,
 .reference-area {
   background: var(--panel);
   border: 1px solid var(--line);
@@ -421,6 +422,11 @@ textarea:focus-visible,
   padding: 16px;
 }
 
+.ai-prompt-area {
+  margin-top: 14px;
+  padding: 16px;
+}
+
 .side-toggle {
   display: flex;
   align-items: center;
@@ -468,6 +474,10 @@ textarea {
 
 #freeNoteText {
   min-height: 120px;
+}
+
+#aiPromptText {
+  min-height: 240px;
 }
 
 .reference-note {
