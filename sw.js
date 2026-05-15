@@ -1,4 +1,4 @@
-const CACHE_NAME = "gait-analysis-assist-v1";
+const CACHE_NAME = "gait-analysis-assist-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
